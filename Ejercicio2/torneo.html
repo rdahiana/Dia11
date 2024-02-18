@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagonal de imágenes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<table>  <!--con esto definimos una tabla*/-->
+    <thead> <!--con esto definimos el encabezado*/-->
+        <tr> <!--define una tabla*/-->
+            <th>Club</th> <!--th es el encabezado*/-->
+            <th>PJ</th>
+            <th>G</th>
+            <th>E</th>
+            <th>P</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>DG</th>
+            <th>Pts</th>
+            <th>Últimos 5 </th>
+        </tr> <!--aca indicamos que cerramos la parte de crear las columnas (encabezados)-->
+    </thead>
+    <tbody>
+        <!-- Generar 12 filas td es una celda , aca abajo ponemos tr q es la fila y td la celda -->
+        <tr>
+            <td class="info-club">
+                <span class="posicion">1</span>
+                <img src="libertad.png" alt="Escudo Libertad">Libertad
+            </td>
+            <td>13</td>
+            <td>10</td>
+            <td>2</td>
+            <td>1</td>
+            <td>30</td>
+            <td>12</td>
+            <td>18</td>
+            <td>32</td>
+            <td class="imagenes-extra">
+                <img src="gano.jpg" alt="Imagen 1">
+                <img src="gano.jpg" alt="Imagen 2">
+                <img src="empate.jpg" alt="Imagen 3">
+                <img src="perdio.jpg" alt="Imagen 2">
+                <img src="gano.jpg" alt="Imagen 3">
+            </td>
+        </tr>
+        
+        <tr><td class = "info-club">
+            <span class = "posicion" >2</span>
+            <img src ="cerro.png" alt= "Escudo Cerro">Cerro</td><td>13</td><td>10</td><td>1</td><td>2</td><td>25</td><td>8</td><td>17</td><td>31</td>
+            <td class="imagenes-extra">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+                <img src="empate.jpg" alt="Empato">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >3</span>
+            <img src ="olimpia.jpg" alt= "Escudo Olimpia">Olimpia</td><td>13</td><td>7</td><td>3</td><td>3</td><td>19</td><td>13</td><td>6</td><td>24</td>
+            <td class="imagenes-extra">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+                <img src="empate.jpg" alt="Empato">
+                <img src="perdio.jpg" alt="Perdio">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >4</span>
+            <img src ="luque.png" alt= "Escudo Luque">Sportivo Luqueño</td><td>13</td><td>6</td><td>5</td><td>2</td><td>25</td><td>19</td><td>6</td><td>23</td>
+            <td class="imagenes-extra">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="empate.jpg" alt="Empato">
+                <img src="gano.jpg" alt="Gano">
+                <img src="empate.jpg" alt="Empato">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >5</span>
+            <img src ="sol.png" alt= "Escudo Sol de America">Sol de America</td><td>13</td><td>5</td><td>3</td><td>5</td><td>14</td><td>17</td><td>-3</td><td>18</td>
+            <td class="imagenes-extra">
+                <img src="empate.jpg" alt="Empato">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="perdio">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >6</span>
+            <img src ="nacional.png" alt= "Escudo Nacional">Nacional</td><td>13</td><td>5</td><td>2</td><td>6</td><td>16</td><td>21</td><td>-5</td><td>17</td>
+            <td class="imagenes-extra">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >7</span>
+            <img src ="tacuary.jpg" alt= "Escudo Tacuary">Tacuary</td><td>13</td><td>5</td><td>1</td><td>7</td><td>12</td><td>14</td><td>-2</td><td>15</td>
+            <td class="imagenes-extra">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="perdio.jpg" alt="Perdio">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >8</span>
+            <img src ="guarani.png" alt= "Escudo Guaraní">Guaraní </td><td>13</td><td>4</td><td>3</td><td>6</td><td>15</td><td>17</td><td>-2</td><td>15</td>
+            <td class="imagenes-extra">
+                <img src="empate.jpg" alt="Empato">
+                <img src="gano.jpg" alt="Gano">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+            </td>
+        <tr><td class = "info-club">
+            <span class = "posicion" >9</span>
+            <img src ="gris.png" alt= "Escudo Guaireña">Guaireña</td><td>13</td><td>3</td><td>3</td><td>7</td><td>11</td><td>18</td><td>-7</td><td>12</td>
+            <td class="imagenes-extra">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="perdio.jpg" alt="Perdio">
+                <img src="gano.jpg" alt="Gano">
+                <img src="gano.jpg" alt="Gano">
+            </td>
+        <tr class="fila-extra">
+            <td class = "info-club">
+                <span class = "posicion" >10</span><img src ="gris.png" alt= "Escudo 12 de Octubre">12 de Octubre</td><td>13</td><td>2</td><td>6</td><td>5</td><td>10</td><td>21</td><td>-11</td><td>12</td>
+                <td class="imagenes-extra">
+                    <img src="gano.jpg" alt="Gano">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="empate.jpg" alt="Empato">
+                    <img src="empate.jpg" alt="Empato">
+                    <img src="empate.jpg" alt="Empato">
+                </td>
+        <tr class="fila-extra">
+            <td class = "info-club"><span class = "posicion" >11</span>
+                <img src ="general.png" alt= "Escudo General Caballero">General Caballero</td><td>13</td><td>2</td><td>3</td><td>8</td><td>12</td><td>18</td><td>-6</td><td>9</td>
+                <td class="imagenes-extra">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="empate.jpg" alt="Empato">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="empate.jpg" alt="Empato">
+                </td>
+        <tr class="fila-extra">
+            <td class = "info-club"><span class = "posicion" >12</span>
+                <img src ="ameliano.png" alt= "Escudo Ameliano">Sportivo Ameliano</td><td>13</td><td>3</td><td>0</td><td>10</td><td>12</td><td>23</td><td>-11</td><td>9</td>
+                <td class="imagenes-extra">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="gano.jpg" alt="Gano">
+                    <img src="perdio.jpg" alt="Perdio">
+                    <img src="perdio.jpg" alt="Perdio">
+                </td>
+
+    </tr>
+</tbody>
+</table>
+
+</body>
+</html>

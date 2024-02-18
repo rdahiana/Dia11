@@ -1,0 +1,79 @@
+body {
+    font-family: Helvetica; /* Establece el tipo de letra para todo el cuerpo del documento */
+}
+
+table {
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    width: 100%; /* Ancho de la tabla */
+}
+.info-club {
+    display: flex; /* Usa un contenedor flexible */
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    width: 220px; /* Ajusta el ancho según sea necesario */
+    margin-right: 50px; /* Desplaza más el contenido hacia la derecha */
+}
+
+.posicion {
+    margin-left: 10px; /* Ajusta el margen izquierdo del número de posición */
+}
+
+.info-club img {
+    width: 30px; /* Ancho de la imagen */
+    height: 30px; /* Alto de la imagen */
+    margin-left: 30px; /* Desplaza más la imagen hacia la derecha */
+}
+
+
+/* Estilos para la fila de encabezado */
+thead tr {
+    color: grey; /* Color del texto para las filas de encabezado */
+    font-size: 14px;
+}
+
+/* Estilos para la celda de encabezado del club */
+thead th:first-child {
+    text-align: left; /* Alinea el texto a la izquierda */
+    border-top: 3.5px solid black; /* Borde superior negro */
+}
+
+
+thead th:not(:first-child) {
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para las imágenes dentro de la tabla */
+table img {
+    width: 30px; /* Define un ancho específico para las imágenes */
+    height: 30px; /* Define una altura específica para las imágenes */
+    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir completamente su contenedor */
+    vertical-align: middle; /* Alinear verticalmente la imagen en la celda */
+}
+
+/* Estilos para todas las celdas */
+th,
+td {
+    border-right: 1px solid #ffffff; /* Borde derecho blanco */
+    border-left: 1px solid #ffffff; /* Borde izquierdo blanco */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.103); /* Esto establece el borde inferior de las celdas en gris */
+}
+
+td {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.fila-extra .info-club img {
+    margin-left: 21px; /* Desplaza más la imagen hacia la derecha */
+}
+
+.imagenes-extra {
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+}
+
+.imagenes-extra img {
+    margin-left: 0; /* Elimina el margen izquierdo de las imágenes */
+}
+
+
+
+

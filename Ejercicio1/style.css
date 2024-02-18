@@ -1,0 +1,55 @@
+.diagonal-container img {
+    width: 200px; /* Ajusta el ancho de las imágenes */
+    height: 200px; /* Ajusta la altura de las imágenes */
+    position: absolute;
+    transition: opacity 0.3s; /* Agrega una transición suave para la opacidad */
+    border: 2px solid white; /* Agrega un borde inicial a todas las imágenes */
+}
+
+.diagonal-container img:hover { /* funciona para activar algo cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).*/
+    border-color: black; /* Cambia el color del borde al poner el mouse encima */
+    z-index: 1; /* Mueve la imagen al frente de las demás (se pone encima) */
+}
+
+.diagonal-container img:hover ~ img {
+/**diagonal-container img:hover: Se refiere a la imagen sobre la cual se pasa el mouse (:hover).
+~: Es el selector de hermanos adyacentes en CSS.
+img: Especifica que el selector se aplica a los elementos img. (es decir lo que esta dentro de este cursor se va realizar a los elementos que estan cerca del elemento donde se puso el cursor) */
+    opacity: 0; /* Oculta las imágenes posteriores */
+
+}
+
+/* Resto de tus estilos */
+.diagonal-container {
+    width: 640px;
+    height: 640px;
+    position: relative;
+    overflow: hidden; /*o:controla el comportamiento de cómo se maneja el contenido que excede el tamaño de un contenedor y h: nos dice como se maneja, h oculta*/
+    border: 2px solid black;
+    margin: 0 auto; /*(margin establece el margen para los 4 lados) Centra el contenedor horizontalmente */
+}
+
+.diagonal-container img:nth-child(1) {
+    top: 20px;
+    left: 20px;
+}
+
+.diagonal-container img:nth-child(2) {
+    top: 120px;
+    left: 120px;
+}
+
+.diagonal-container img:nth-child(3) {
+    top: 220px;
+    left: 220px;
+}
+
+.diagonal-container img:nth-child(4) {
+    top: 320px;
+    left: 320px;
+}
+
+.diagonal-container img:nth-child(5) {
+    top: 420px;
+    left: 420px;
+}
